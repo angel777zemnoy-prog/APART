@@ -120,21 +120,100 @@
 
   <h2>&#128247; Фотогалерея</h2>
   <div class="gallery">
-    <img src="image/%D0%BF%D1%80%D1%83%D0%B4%D1%8B%20%D0%BE%D1%81%D0%B5%D0%BD%D1%8C%20%D0%BC%D0%B0%D1%81%D0%BB%D0%BE.jpg" alt="Пруды осень — масло" title="Пруды осень — масло"/>
-    <img src="image/%D0%BF%D1%80%D1%83%D0%B4%20%D0%BB%D0%B5%D0%B1%D0%B5%D0%B4%D1%8C.jpg" alt="Пруд с лебедем" title="Пруд с лебедем"/>
-    <img src="image/%D0%BF%D0%B0%D1%82%D1%80%D0%B8%D0%B0%D1%80%D1%88%D0%B8%D0%B9%20%D0%BF%D1%80%D1%83%D0%B4%20%D0%BB%D0%B5%D1%82%D0%BE%20%D1%87%D0%B1.jpg" alt="Патриарший пруд лето" title="Патриарший пруд лето — чёрно-белое"/>
-    <img src="image/%D1%81%D1%87%D0%B0%D1%81%D1%82%D1%8C%D0%B5%20%D0%B2%20%D1%80%D1%83%D0%BA%D0%B0%D1%85.jpg" alt="Счастье в руках" title="Счастье в руках"/>
-    <img src="image/%D0%B7%D0%B8%D0%BC%D0%B0%20%D0%BD%D0%BE%D1%87%D1%8C%20%D0%BF%D1%80%D1%83%D0%B4.jpg" alt="Зима ночь пруд" title="Зима ночь на пруду"/>
     <img src="image/%D1%84%D0%BE%D1%82%D0%BE%20%D0%BF%D1%80%D1%83%D0%B4%20%D0%B0%D0%BB%D0%BB%D0%B5%D1%8F.jpg" alt="Фото пруд аллея" title="Аллея у пруда"/>
-    <img src="image/%D0%B2%D0%BE%D1%81%D0%BF%20%D1%82%D0%B5%D1%82%D1%83%D1%88%D0%BA%D0%B8%20%D1%8E%D0%BB%D0%B8%D0%B8%20%D0%BF%D0%B0%D1%82%D1%80%D0%B8%D0%B0%D1%80%D1%88%D0%B8%20%D1%84%D0%BE%D1%82%D0%BE.jpg" alt="Воспоминания — Патриаршие" title="Воспоминания о Патриарших"/>
-    <img src="image/%D1%81%D0%B2%D0%B0%D0%B4%D1%8C%D0%B1%D0%B018%20%D0%B2%D0%B5%D0%BA.jpg" alt="Свадьба XVIII век" title="Свадьба XVIII век"/>
-    <img src="image/%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B9%20%D1%81%D0%BD%D0%B5%D0%B3%20%D0%BC%D0%BE%D1%81%D0%BA%D0%B2%D0%B0.jpg" alt="Первый снег в Москве" title="Первый снег в Москве"/>
-    <img src="image/%D0%BF%D1%80%D1%83%D0%B4%2020%20%D0%B2%D0%B5%D0%BA.png" alt="Пруд XX век" title="Пруд в XX веке"/>
   </div>
 
   <h2>&#128205; Расположение</h2>
   <p><a class="map-link" href="https://yandex.ru/maps/213/moscow/search/%D1%87%D0%B8%D1%81%D1%82%D1%8B%D0%B5%20%D0%BF%D1%80%D1%83%D0%B4%D1%8B/?ll=37.641290%2C55.764356&sll=37.645337%2C55.762590&sspn=0.013915%2C0.005783&z=16.16" target="_blank">&#128506; Показать на карте — Чистые Пруды</a></p>
 
-  <p>5 &middot; x<sup>2</sup> + 5 &middot; x + 2 = 0</p>
+  <hr style="margin-top:40px;border-color:#c9a96e"/>
+
+  <h2>&#128221; Бронирование и заказ</h2>
+  <form id="bookingForm" style="background:#fff;padding:25px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);margin:20px 0;">
+
+    <h3 style="margin-top:0;">Персональные данные</h3>
+    <label style="display:block;margin-bottom:5px;font-weight:bold;">Имя и фамилия *</label>
+    <input type="text" name="fullName" required style="width:100%;padding:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:5px;box-sizing:border-box;"/>
+
+    <label style="display:block;margin-bottom:5px;font-weight:bold;">Телефон *</label>
+    <input type="tel" name="phone" required placeholder="+7 (___) ___-__-__" style="width:100%;padding:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:5px;box-sizing:border-box;"/>
+
+    <label style="display:block;margin-bottom:5px;font-weight:bold;">Электронная почта *</label>
+    <input type="email" name="email" required style="width:100%;padding:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:5px;box-sizing:border-box;"/>
+
+    <h3>Детали бронирования</h3>
+    <label style="display:block;margin-bottom:5px;font-weight:bold;">Дата заезда *</label>
+    <input type="date" name="checkIn" required style="width:100%;padding:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:5px;box-sizing:border-box;"/>
+
+    <label style="display:block;margin-bottom:5px;font-weight:bold;">Дата выезда *</label>
+    <input type="date" name="checkOut" required style="width:100%;padding:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:5px;box-sizing:border-box;"/>
+
+    <label style="display:block;margin-bottom:5px;font-weight:bold;">Количество гостей *</label>
+    <select name="guests" required style="width:100%;padding:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:5px;box-sizing:border-box;">
+      <option value="">— Выберите —</option>
+      <option value="1">1 гость</option>
+      <option value="2">2 гостя</option>
+      <option value="3">3 гостя</option>
+    </select>
+
+    <label style="display:block;margin-bottom:5px;font-weight:bold;">Цель визита</label>
+    <select name="purpose" style="width:100%;padding:8px;margin-bottom:15px;border:1px solid #ccc;border-radius:5px;box-sizing:border-box;">
+      <option value="tourism">Туризм / отдых</option>
+      <option value="business">Командировка / работа</option>
+      <option value="event">Мероприятие / праздник</option>
+      <option value="other">Другое</option>
+    </select>
+
+    <h3>Способ оплаты</h3>
+    <label style="display:block;margin-bottom:10px;">
+      <input type="radio" name="payment" value="card" checked/> Банковская карта
+    </label>
+    <label style="display:block;margin-bottom:10px;">
+      <input type="radio" name="payment" value="transfer"/> Перевод по реквизитам
+    </label>
+    <label style="display:block;margin-bottom:15px;">
+      <input type="radio" name="payment" value="cash"/> Наличные при заселении
+    </label>
+
+    <h3>Дополнительные услуги</h3>
+    <label style="display:block;margin-bottom:8px;">
+      <input type="checkbox" name="services" value="earlyCheckin"/> Ранний заезд (до 14:00)
+    </label>
+    <label style="display:block;margin-bottom:8px;">
+      <input type="checkbox" name="services" value="lateCheckout"/> Поздний выезд (после 12:00)
+    </label>
+    <label style="display:block;margin-bottom:8px;">
+      <input type="checkbox" name="services" value="transfer"/> Трансфер от/до вокзала/аэропорта
+    </label>
+    <label style="display:block;margin-bottom:8px;">
+      <input type="checkbox" name="services" value="cleaning"/> Дополнительная уборка
+    </label>
+    <label style="display:block;margin-bottom:15px;">
+      <input type="checkbox" name="services" value="food"/> Продуктовый набор к заезду
+    </label>
+
+    <label style="display:block;margin-bottom:5px;font-weight:bold;">Комментарии и пожелания</label>
+    <textarea name="comments" rows="4" placeholder="Любые пожелания: время заезда, особые условия, вопросы..." style="width:100%;padding:8px;margin-bottom:20px;border:1px solid #ccc;border-radius:5px;box-sizing:border-box;resize:vertical;"></textarea>
+
+    <div style="background:#f9f3e8;padding:15px;border-radius:8px;margin-bottom:15px;border:1px solid #e0d0b8;">
+      <label style="display:flex;align-items:flex-start;gap:10px;cursor:pointer;">
+        <input type="checkbox" name="consent" required style="margin-top:4px;min-width:18px;min-height:18px;"/>
+        <span>Я даю согласие на обработку моих персональных данных в соответствии с <a href="#" style="color:#4a3728;">Политикой конфиденциальности</a> и подтверждаю, что ознакомлен(а) с условиями бронирования. Данные используются исключительно для обработки заявки и связи с вами. *</span>
+      </label>
+    </div>
+
+    <button type="submit" style="width:100%;padding:14px;background-color:#4a3728;color:#fff;border:none;border-radius:5px;font-size:16px;cursor:pointer;font-family:inherit;">Отправить заявку на бронирование</button>
+  </form>
+
+  <hr style="margin-top:40px;border-color:#c9a96e"/>
+
+  <h2>&#128222; Контакты менеджера</h2>
+  <div style="background:#fff;padding:25px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);margin:20px 0;">
+    <p><strong>&#128222; Телефон:</strong> <a href="tel:+79XXXXXXXXX" style="color:#4a3728;">+7 (9XX) XXX-XX-XX</a></p>
+    <p><strong>&#9992; Telegram:</strong> <a href="https://t.me/tvoyapart" target="_blank" style="color:#4a3728;">@tvoyapart</a></p>
+    <p><strong>&#128231; Электронная почта:</strong> <a href="mailto:info@tvoyapart.ru" style="color:#4a3728;">info@tvoyapart.ru</a></p>
+    <p style="margin-top:15px;color:#777;font-size:14px;">Время работы: ежедневно, 09:00–22:00 (Москва)</p>
+  </div>
+
 </body>
 </html>
